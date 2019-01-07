@@ -19,7 +19,7 @@ class App extends Singleton{
         $content = $controller->__call($this->uri->action, array($this->uri->id));
 //        $content = ob_get_clean();
     
-        $controller->renderPage($content);
+//        $controller->renderPage($content);
     }
 
 }

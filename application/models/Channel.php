@@ -3,7 +3,7 @@
 class Channel extends Model
 {
 
-    public function getVideos(string $id) 
+    public function getVideos($id)
     {
         $videos = new YouTubeVideo();
         $videoData = $videos->getVideoGallery($id);
